@@ -1,0 +1,20 @@
+header {
+    width: 280px;
+    margin: auto;
+    text-align: center;
+    line-height: 150%;
+
+    &>*{
+        padding: 1rem 0;
+        
+        &:nth-child(3){
+            padding-bottom: 0;
+        }
+
+        &:last-child{
+            width: 100%;
+        }
+    }
+    
+
+}
